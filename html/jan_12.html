@@ -10,5 +10,34 @@
       href="https://imgs.search.brave.com/vEgusxB9wJntrfBM5JfA_LeiBnUwyteR6GmXXaMZZNk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9saDMu/Z29vZ2xldXNlcmNv/bnRlbnQuY29tL2VH/bGUxalIwTDJPV1E1/UjFxenZBUWRVaFJH/SC00dzE5aGhWWlY4/WVJVam1ndWlTbjI2/TjVETGpPOEYyV1My/eEVqZlk9dzIzNw"
     />
   </head>
-  <body></body>
+  <body>
+    <!DOCTYPE html>
+    <html>
+      <body>
+        <h2>HTML Iframes</h2>
+        <p>
+          You can use the height and width attributes to specify the size of the
+          iframe:
+        </p>
+
+        <!-- <iframe
+          src="jan_11.html"
+          height="200"
+          width="300"
+          title="Iframe Example"
+        ></iframe> -->
+
+        h2>Iframe - Target for a Link</h2>
+<iframe src="jan_11.html" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+<p>
+  <marquee behaviour="alternate" scrollamount="40" onmouseover="this.stop()" onmouseout="this.start()">
+    <a href="jan_11.html" target="iframe_a"><</a>
+    <a href="https://www.computerhope.com/jargon/w/website.htm" target="iframe_a">></a>
+  </marquee>
+</p>
+
+<p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe.</p>
+      </body>
+    </html>
+  </body>
 </html>
